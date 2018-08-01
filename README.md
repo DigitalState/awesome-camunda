@@ -182,7 +182,8 @@ Listing of known project/product comparisons.
 
 Various Training materials, Videos, links, etc
 
-1. Throwing BPMN Errors with Javascript: https://medium.com/@stephenrussett/throwing-bpmn-errors-with-javascript-in-camunda-c678f4b7d9ff
-1. Deploying Embedded Forms with Rest API: https://medium.com/@stephenrussett/deploying-embedded-forms-with-camunda-rest-api-84cf8010f8c1
-1. Deploying External Scripts with Rest API: https://medium.com/@stephenrussett/deploying-external-scripts-with-camunda-rest-api-e06bd90a2931
+1. [Camunda Videos](https://www.youtube.com/user/camundaVideo) - Official Camunda YouTube channel with various training videos
+1. [Throwing BPMN Errors with Javascript](https://medium.com/@stephenrussett/throwing-bpmn-errors-with-javascript-in-camunda-c678f4b7d9ff) - Medium.com post by @StephenOTT (2016)
+1. [Deploying Embedded Forms with Rest API](https://medium.com/@stephenrussett/deploying-embedded-forms-with-camunda-rest-api-84cf8010f8c1) - Medium.com post by @StephenOTT (2016)
+1. [Deploying External Scripts with Rest API](https://medium.com/@stephenrussett/deploying-external-scripts-with-camunda-rest-api-e06bd90a2931) - Medium.com post by @StephenOTT (2016)
 1. ...
