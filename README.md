@@ -203,3 +203,9 @@ Various Training materials, Videos, links, etc
 1. [Deploying Embedded Forms with Rest API](https://medium.com/@stephenrussett/deploying-embedded-forms-with-camunda-rest-api-84cf8010f8c1) - Medium.com post by @StephenOTT (2016)
 1. [Deploying External Scripts with Rest API](https://medium.com/@stephenrussett/deploying-external-scripts-with-camunda-rest-api-e06bd90a2931) - Medium.com post by @StephenOTT (2016)
 1. ...
+
+
+# Frequently used JavaDoc references
+
+1. [Process Engine Services](https://docs.camunda.org/javadoc/camunda-bpm-platform/7.9/org/camunda/bpm/engine/ProcessEngineServices.html) - Main Interface JavaDoc page for Process Engine Services.  Most commonly used page when navigating the Engine's services
+1. ...
