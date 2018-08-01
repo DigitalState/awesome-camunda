@@ -3,6 +3,18 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 
 :exclamation: See something missing, an error, an improvement? Please contribute with Pull Requests!
 
+# Official Github Accounts
+
+1. https://github.com/camunda
+1. https://github.com/bpmn-io
+1. https://github.com/camunda-consulting
+1. https://github.com/camunda-ci
+1. https://github.com/camunda-third-party
+1. https://github.com/camunda-jenkins
+1. https://github.com/camunda-internal
+1. https://github.com/zeebe-io
+
+
 # Tools and libraries
 
 1. BPMN to PNG/PDF
