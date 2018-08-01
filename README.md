@@ -65,7 +65,7 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 
 # BPM Engine Plugins
 
-1. Batch
+1. [Custom Batch](https://github.com/camunda/camunda-bpm-custom-batch) - A plugin to provide a simple way of using the Camunda Batch functionality.
 1. Form JS Validation https://github.com/StephenOTT/camunda-form-validator-js-server
 1. Vertx https://github.com/StephenOTT/camunda-vertx-plugin
 1. https://github.com/DigitalState/camunda-administrative-user-plugin
@@ -104,6 +104,7 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 1. Extending the Camunda Rest API
 1. Clustering
 1. Kubernetes
+1. Docker
 1. Secrets Management
 1. HTTP-Connector
 1. 4000 Character limit on text/Strings
