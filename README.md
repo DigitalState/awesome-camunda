@@ -143,8 +143,10 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 
 # Community Groups
 
-1. https://github.com/camunda-vienna
-1. 
+1. [Meetups](https://camunda.com/events/meetups/) - Meetup groups for Camunda
+1. [Vienna Camunda Meetup Group](http://www.meetup.com/camunda-vienna) - [Github Organization]
+(https://github.com/camunda-vienna)
+1. ..
 
 
 
