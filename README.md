@@ -34,7 +34,7 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 
 ## Scripting
 
-:exclamation-mark: [Helpful Scripting Snippets](./scripting-snippets.md)
+:exclamation: [Helpful Scripting Snippets](./scripting-snippets.md)
 
 1. Variable Encryption: https://github.com/StephenOTT/camunda-data-encryption-rsa
 1. Multi-Instance Mapping
