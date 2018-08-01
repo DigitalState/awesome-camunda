@@ -14,7 +14,7 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 1. https://github.com/StephenOTT/vertx-bpmn-model-doc-generator
 1. https://github.com/livetocode/camunda-prometheus-exporter
 1. https://github.com/camunda-consulting/camunda-util-demo-data-generator
-
+1. https://forum.camunda.org/t/camunda-to-asciidoctor-documentation-generator/6580  https://github.com/GeekMustHave/Camunda-ADOC-Viewer  https://github.com/GeekMustHave/Camunda-ASCIIDoc-Generator
 
 # Load Testing / Performance Testing
 
