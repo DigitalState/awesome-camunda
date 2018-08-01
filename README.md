@@ -27,6 +27,7 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 1. https://github.com/livetocode/camunda-prometheus-exporter
 1. https://github.com/camunda-consulting/camunda-util-demo-data-generator
 1. https://forum.camunda.org/t/camunda-to-asciidoctor-documentation-generator/6580  https://github.com/GeekMustHave/Camunda-ADOC-Viewer  https://github.com/GeekMustHave/Camunda-ASCIIDoc-Generator
+1. [MacOS Homebrew Cask for Camunda Modeler](https://github.com/Homebrew/homebrew-cask/blob/master/Casks/camunda-modeler.rb) - `brew install camunda-modeler`
 
 # Load Testing / Performance Testing
 
