@@ -1,6 +1,7 @@
 # awesome-camunda
 A curated list of awesome Camunda BPM projects, libraries, tools, documentation, forum posts, etc.
 
+:exclamation: See something missing, an error, an improvement? Please contribute with Pull Requests!
 
 # Tools and libraries
 
