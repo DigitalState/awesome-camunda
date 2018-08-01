@@ -175,3 +175,14 @@ Listing of known project/product comparisons.
 1. etc...
 1. https://blog.camunda.com/post/2016/10/camunda-engine-since-activiti-fork/
 1. https://forum.camunda.org/t/strengths-of-camunda-vs-flowable/2842
+
+
+
+# Training Material
+
+Various Training materials, Videos, links, etc
+
+1. Throwing BPMN Errors with Javascript: https://medium.com/@stephenrussett/throwing-bpmn-errors-with-javascript-in-camunda-c678f4b7d9ff
+1. Deploying Embedded Forms with Rest API: https://medium.com/@stephenrussett/deploying-embedded-forms-with-camunda-rest-api-84cf8010f8c1
+1. Deploying External Scripts with Rest API: https://medium.com/@stephenrussett/deploying-external-scripts-with-camunda-rest-api-e06bd90a2931
+1. ...
