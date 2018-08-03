@@ -3,6 +3,18 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 
 :exclamation: See something missing, an error, an improvement? Please contribute with Pull Requests!
 
+# Official Github Accounts
+
+1. https://github.com/camunda
+1. https://github.com/bpmn-io
+1. https://github.com/camunda-consulting
+1. https://github.com/camunda-ci
+1. https://github.com/camunda-third-party
+1. https://github.com/camunda-jenkins
+1. https://github.com/camunda-internal
+1. https://github.com/zeebe-io
+
+
 # Tools and libraries
 
 1. BPMN to PNG/PDF
@@ -14,7 +26,9 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 1. https://github.com/StephenOTT/vertx-bpmn-model-doc-generator
 1. https://github.com/livetocode/camunda-prometheus-exporter
 1. https://github.com/camunda-consulting/camunda-util-demo-data-generator
-
+1. https://forum.camunda.org/t/camunda-to-asciidoctor-documentation-generator/6580  https://github.com/GeekMustHave/Camunda-ADOC-Viewer  https://github.com/GeekMustHave/Camunda-ASCIIDoc-Generator
+1. [MacOS Homebrew Cask for Camunda Modeler](https://github.com/Homebrew/homebrew-cask/blob/master/Casks/camunda-modeler.rb) - `brew install camunda-modeler`
+1. Unit Testing Coverage
 
 # Load Testing / Performance Testing
 
@@ -40,6 +54,7 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 1. Variable Encryption: https://github.com/StephenOTT/camunda-data-encryption-rsa
 1. Multi-Instance Mapping
 1. Nashorn Engine
+1. Printing to Console
 
 ## OAuth / SSO
 
@@ -65,7 +80,7 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 
 # BPM Engine Plugins
 
-1. Batch
+1. [Custom Batch](https://github.com/camunda/camunda-bpm-custom-batch) - A plugin to provide a simple way of using the Camunda Batch functionality.
 1. Form JS Validation https://github.com/StephenOTT/camunda-form-validator-js-server
 1. Vertx https://github.com/StephenOTT/camunda-vertx-plugin
 1. https://github.com/DigitalState/camunda-administrative-user-plugin
@@ -104,6 +119,7 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 1. Extending the Camunda Rest API
 1. Clustering
 1. Kubernetes
+1. Docker
 1. Secrets Management
 1. HTTP-Connector
 1. 4000 Character limit on text/Strings
@@ -143,8 +159,10 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 
 # Community Groups
 
-1. https://github.com/camunda-vienna
-1. 
+1. [Meetups](https://camunda.com/events/meetups/) - Meetup groups for Camunda
+1. [Vienna Camunda Meetup Group](http://www.meetup.com/camunda-vienna) - [Github Organization]
+(https://github.com/camunda-vienna)
+1. ..
 
 
 
@@ -175,3 +193,21 @@ Listing of known project/product comparisons.
 1. etc...
 1. https://blog.camunda.com/post/2016/10/camunda-engine-since-activiti-fork/
 1. https://forum.camunda.org/t/strengths-of-camunda-vs-flowable/2842
+
+
+
+# Training Material
+
+Various Training materials, Videos, links, etc
+
+1. [Camunda Videos](https://www.youtube.com/user/camundaVideo) - Official Camunda YouTube channel with various training videos
+1. [Throwing BPMN Errors with Javascript](https://medium.com/@stephenrussett/throwing-bpmn-errors-with-javascript-in-camunda-c678f4b7d9ff) - Medium.com post by @StephenOTT (2016)
+1. [Deploying Embedded Forms with Rest API](https://medium.com/@stephenrussett/deploying-embedded-forms-with-camunda-rest-api-84cf8010f8c1) - Medium.com post by @StephenOTT (2016)
+1. [Deploying External Scripts with Rest API](https://medium.com/@stephenrussett/deploying-external-scripts-with-camunda-rest-api-e06bd90a2931) - Medium.com post by @StephenOTT (2016)
+1. ...
+
+
+# Frequently used JavaDoc references
+
+1. [Process Engine Services](https://docs.camunda.org/javadoc/camunda-bpm-platform/7.9/org/camunda/bpm/engine/ProcessEngineServices.html) - Main Interface JavaDoc page for Process Engine Services.  Most commonly used page when navigating the Engine's services
+1. ...
