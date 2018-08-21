@@ -5,21 +5,20 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 
 # Official Github Accounts
 
-1. https://github.com/camunda
-1. https://github.com/bpmn-io
-1. https://github.com/camunda-consulting
-1. https://github.com/camunda-ci
-1. https://github.com/camunda-third-party
-1. https://github.com/camunda-jenkins
-1. https://github.com/camunda-internal
-1. https://github.com/zeebe-io
-
+1. [Main Camunda Repo](https://github.com/camunda) - The main repo for Camunda
+1. [BPMN.io](https://github.com/bpmn-io) - BPMN, DMN, and CMMN Javascript Renderers and Editors by Camunda.
+1. [Camunda Consulting Repository](https://github.com/camunda-consulting)
+1. [Camunda-CI](https://github.com/camunda-ci) - Repository used by Camunda for CI Builds.
+1. [Third Party Repos](https://github.com/camunda-third-party) - Contains forks of thrid party libraries and tools used by camunda projects.
+1. [Camunda Jenkins](https://github.com/camunda-jenkins) - Github user for Camunda internal Jenkins usage.
+1. [Camunda Internal](https://github.com/camunda-internal) - Repos used by Camunda for internal purposes.
+1. [Zeebe](https://github.com/zeebe-io) - The main repo for Zeebe; Distributed Workflow Engine for Microservices Orchestration, by Camunda.
 
 # Tools and libraries
 
-1. BPMN to PNG/PDF
-1. https://github.com/red6/dmn-check
-1. https://github.com/viadee/vPAV
+1. [BPMN to PNG/PDF](https://github.com/bpmn-io/bpmn-to-image) - Convert BPMN 2.0 diagrams to PDF documents or PNG files.
+1. [DMN Check](https://github.com/red6/dmn-check) - A Maven plugin which performs various static analyses on Decision Model Notation (DMN) files to detect bugs.
+1. [vPAV](https://github.com/viadee/vPAV) - A tool that checks Camunda projects for consistency and discovers errors in process-driven applications, inconsistencies of a given BPMN model in the classpath and the sourcecode of an underlying java project, such as a delegate reference to a non-existing java class or a non-existing Spring bean.
 1. https://github.com/plexiti/camunda-bpm-spock
 1. https://github.com/StephenOTT/ProcessProjectTemplate
 1. https://github.com/DigitalState/Camunda-Spock-Testing
