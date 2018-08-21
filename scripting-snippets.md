@@ -119,3 +119,78 @@ This is a sample FreeMarker template file.
 My First Name: ${placeholders.firstName}
 My Last Name: ${placeholders.lastName}
 ```
+
+
+## Add Camunda Extension properties using Camunda Model Fluent API
+
+### Groovy
+
+```Groovy
+private CamundaProperties createCamundaProperties(BpmnModelInstance bpmnModelInstance, Map<String,String> properties) {
+    CamundaProperties camundaProperties = bpmnModelInstance.newInstance(CamundaProperties.class)
+    properties.each {
+        camundaProperties.addChildElement(addCamundaProperty(camundaProperties, it.getKey(), it.getValue()))
+    }
+  return camundaProperties
+}
+
+private CamundaProperty addCamundaProperty(CamundaProperties properties, String key, String value){
+    CamundaProperty property = properties.getModelInstance().newInstance(CamundaProperty.class)
+    property.setCamundaName(key)
+    property.setCamundaValue(value)
+    return property
+}
+
+BpmnModelInstance addCamundaProperties(BpmnModelInstance bpmnModelInstance, List<String> elementIds, Map<String, String> properties ){
+    elementIds.each { elementId ->
+        bpmnModelInstance.getDefinitions().builder()
+        ModelElementInstance instance = bpmnModelInstance.getModelElementById(elementId)
+        try {
+            CamundaProperties camundaProperties = createCamundaProperties(bpmnModelInstance,properties)
+            instance.builder().addExtensionElement(camundaProperties)
+        } catch (all){
+            throw new Exception("Cant add extension to Element: ${elementId}.  Error: ${all}")
+          }
+    }
+
+    return bpmnModelInstance
+}
+
+```
+
+Usage Example:
+
+```groovy
+BpmnModelInstance model3() {
+
+    BpmnModelInstance model = Bpmn.createExecutableProcess('model')
+            .name("Reminder Demo")
+            .startEvent('someStartEvent')
+            .userTask('readEmail')
+                .boundaryEvent('killusertask')
+                .timerWithDuration("PT1H")
+                .cancelActivity(true)
+                .moveToActivity('readEmail')
+            .boundaryEvent()
+                .timerWithCycle("R3/PT10M")
+                .cancelActivity(false)
+                .serviceTask()
+                    .name('reminderSent')
+                    .implementation('expression')
+                    .camundaExpression('${1+1}')
+                .endEvent()
+                .moveToActivity('readEmail')
+            .manualTask('manual1').name('do something')
+            .moveToNode('killusertask').connectTo('manual1')
+            //.moveToActivity('killusertask').connectTo('manual1') This does not work. Must use the moveToNode()
+            .manualTask('manual2').name('do something else')
+            .endEvent()
+            .done()
+    model = addCamundaProperties(model,
+                                ['model','someStartEvent','killusertask', 'readEmail'],
+                                ['prop1':'value1', 'prop2':'value2'])
+    return model
+}
+```
+
+This will add the `prop1:value1, prop2:value2` properties to the following elements: `['model','someStartEvent','killusertask', 'readEmail']`.  Note the `model` element, which is the actual BPMN Definition within the BPMN Model; this allows you to add properties to the BPMN model it self and not just BPMN activities.
