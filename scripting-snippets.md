@@ -143,7 +143,6 @@ private CamundaProperty addCamundaProperty(CamundaProperties properties, String 
 
 BpmnModelInstance addCamundaProperties(BpmnModelInstance bpmnModelInstance, List<String> elementIds, Map<String, String> properties ){
     elementIds.each { elementId ->
-        bpmnModelInstance.getDefinitions().builder()
         ModelElementInstance instance = bpmnModelInstance.getModelElementById(elementId)
         try {
             CamundaProperties camundaProperties = createCamundaProperties(bpmnModelInstance,properties)
