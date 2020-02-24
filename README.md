@@ -28,6 +28,7 @@ A curated list of awesome Camunda BPM projects, libraries, tools, documentation,
 1. https://forum.camunda.org/t/camunda-to-asciidoctor-documentation-generator/6580  https://github.com/GeekMustHave/Camunda-ADOC-Viewer  https://github.com/GeekMustHave/Camunda-ASCIIDoc-Generator
 1. [MacOS Homebrew Cask for Camunda Modeler](https://github.com/Homebrew/homebrew-cask/blob/master/Casks/camunda-modeler.rb) - `brew install camunda-modeler`
 1. Unit Testing Coverage
+1. [JQAssistant DMN Plugin](https://github.com/remast/jqa-dmn-plugin) - DMN Plugin of jQAssistant. It enables [jQAssistant](https://jqassistant.org/) to scan and to analyze DMN related artifacts.
 
 # Load Testing / Performance Testing
 
